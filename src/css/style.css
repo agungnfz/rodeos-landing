@@ -36,3 +36,93 @@ body:not(*:root) {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap');
 
 
+.bannerTop {
+  background: rgb(159,199,242);
+  background:url(/src/img/bg-top.png), linear-gradient(0deg, rgba(159,199,242,1) 0%, rgba(255,255,255,1) 100%);
+  background-size: cover;
+  background-position: left top;
+  position: relative;
+  min-height: 32rem;
+  
+}
+
+.bannerBottom {
+  background: rgb(255,255,255);
+  background: url(/src/img/section-bg-testimoni.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(159,199,242,1) 100%);
+  background-size: contain;
+  background-position: center center;
+  position: relative;
+  min-height: 50rem;
+  height: 100%;
+}
+
+.mainContentTop {
+  background: url(/src/img/bg-manfaat.png), url(/src/img/bg-toko.png) #5469da;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 30px!important;
+  position: relative;
+  height: 100%;
+}
+
+.mainContentTop li {
+  background: #fff;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 50px;
+  color: #5469da;
+  font-weight: 600;
+}
+
+.mainContentBottom {
+  background: rgb(255,255,255);
+  background: url(/src/img/section-bg-testimoni.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(159,199,242,1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 40rem;
+  height: 100%;
+
+}
+
+.footerTop {
+  background: url(/src/img/bg-manfaat.png), #5469da;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 30px!important;
+  position: relative;
+  min-height: 20rem;
+  height: 100%;
+}
+
+.tokoOffline {
+  background: rgb(255,255,255);
+  background: url(/src/img/section-bg-testimoni.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(159,199,242,1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  min-height: 45rem;
+  height: 100%;
+
+}
+
+.promoTambahan {
+  background: url(/src/img/bg-promo.png), #5469da;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 30px!important;
+  position: relative;
+  min-height: 20rem;
+  height: 100%;
+}
+
+.footerBottom {
+  background: rgb(159,199,242);
+  background:url(/src/img/features-illustration-dark\ copy.png), linear-gradient(0deg, rgba(159,199,242,1) 0%, rgba(255,255,255,1) 100%);
+  background-size: cover;
+  background-position:  bottom;
+  position: relative;
+  height: 100%;
+}
