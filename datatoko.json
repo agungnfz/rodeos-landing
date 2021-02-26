@@ -1,0 +1,35 @@
+
+{
+  "offline": [
+    {
+      "id_toko": "275",
+      "nama": "toko primado\t",
+      "alamat": "jl raya purabaya",
+      "namakota": "Sukabumi"
+    },
+    {
+      "id_toko": "274",
+      "nama": "suci kosmetik",
+      "alamat": "\tjl raya sagaranten dpn terminal",
+      "namakota": "Sukabumi"
+    },
+    {
+      "id_toko": "273",
+      "nama": "toko nindi kosmetik",
+      "alamat": "\tjl raya cimanggir desa pasanggrahan",
+      "namakota": "Sukabumi"
+    },
+    {
+      "id_toko": "272",
+      "nama": "toko obat syifa farma",
+      "alamat": "\tcipajl raya ciparay desa ciparay",
+      "namakota": "Sukabumi"
+    },
+    {
+      "id_toko": "271",
+      "nama": "apotek fortuna",
+      "alamat": "\tjl raya simpang bungur",
+      "namakota": "Sukabumi"
+    }
+  ]
+}

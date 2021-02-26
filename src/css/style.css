@@ -49,7 +49,7 @@ body:not(*:root) {
 .bannerBottom {
   background: rgb(255,255,255);
   background: url(/src/img/section-bg-testimoni.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(159,199,242,1) 100%);
-  background-size: contain;
+  background-size: cover;
   background-position: center center;
   position: relative;
   min-height: 50rem;
@@ -60,8 +60,9 @@ body:not(*:root) {
   background: url(/src/img/bg-manfaat.png), url(/src/img/bg-toko.png) #5469da;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 0 30px!important;
+  background-position: center 30px!important;
   position: relative;
+
   height: 100%;
 }
 
@@ -89,7 +90,7 @@ body:not(*:root) {
 .footerTop {
   background: url(/src/img/bg-manfaat.png), #5469da;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: 0 30px!important;
   position: relative;
   min-height: 20rem;
@@ -97,13 +98,11 @@ body:not(*:root) {
 }
 
 .tokoOffline {
-  background: rgb(255,255,255);
-  background: url(/src/img/section-bg-testimoni.png), linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(159,199,242,1) 100%);
+  background: url(/src/img/section-bg-testimoni.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   position: relative;
-  min-height: 45rem;
   height: 100%;
 
 }
@@ -120,9 +119,9 @@ body:not(*:root) {
 
 .footerBottom {
   background: rgb(159,199,242);
-  background:url(/src/img/features-illustration-dark\ copy.png), linear-gradient(0deg, rgba(159,199,242,1) 0%, rgba(255,255,255,1) 100%);
+  background:url(/src/img/bg-toko.png), linear-gradient(0deg, rgba(159,199,242,1) 0%, rgba(255,255,255,1) 100%);
   background-size: cover;
-  background-position:  bottom;
+  background-position:  top;
   position: relative;
   height: 100%;
 }
